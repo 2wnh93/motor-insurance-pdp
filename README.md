@@ -6,7 +6,7 @@
 
 With the autoinsurance data, the project seeks to predict the claim frequency based on other features in the data eg. age of vehicle, age of driver, area etc. For model interpretation, the project will use partial dependence plots (PDP). 
 
-<u>Partial Dependence Plots (PDP)</u>
+<ins>Partial Dependence Plots (PDP)</ins>
 
 PDP gives the extent of influence to prediction by change of the variable. With PDP, we can check the curve over the variable change (as opposed to just a single value to a variable like in variable importances.
 
@@ -31,11 +31,11 @@ Below description of the dataset, sourced from [OpenML](https://www.openml.org/d
 
 ### Findings
 
-<u>Feature Engineering</u>
+<ins>Feature Engineering</ins>
 
 Claim frequency is computed by taking the number of claims (`ClaimNb`) divided by the exposure (`Exposure`) and this will be the target variable for prediction. 
 
-<u>Modelling and Interpretation</u>
+<ins>Modelling and Interpretation</ins>
 
 Random Forest Regressor is used to predict claim frequency, with a cross validated R2 score of 0.987.
 
